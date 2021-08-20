@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E6DEDD;
+    color: black;
+    font-family: "Raleway", open sans;
+    font-size: 16px;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*************************** Nav Menu ****************************/
+
+.navbar {
+
+    background-color: #F89D13;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.25rem;
+
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black
+}
+
+.nav-list a:hover {
+    color: #E6DEDD;
+}
+
+.menu-toggler {
+    display: none;
+}
+
+.menu-line {
+    width: 40px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 4px;
+}
+
+.primary-icon {
+    width: 10.417vw;
+
+}
+
+/* .logo-div
+{
+    /* background-color: yellow; */
+
+
+
+
+
+/*************************** Hero ****************************/
+
+.hero-text {
+
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-bottom: 30vh;
+    padding-top: 20vh;
+    max-width: 65vw;
+}
+
+.hero-text h1 {
+    font-size: 4.5rem;
+}
+
+
+/*************************** About ****************************/
+
+
+
+.about {
+
+
+    /* background-color: pink; */
+
+    text-align: center;
+    color: #F89D13;
+
+    position: relative;
+
+
+
+}
+
+
+.about p {
+    font-weight: 600;
+
+}
+
+.feature-card
+{
+    
+}
+
+.wavy-section svg
+{
+    /* bottom: -2px; */
+}
+.inner-abt {
+   
+    background-color: black;
+    margin-top: -3px;
+    margin-bottom: -5px;
+    
+}
+
+.about h1 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.about-img {
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.about-img img {
+    border-radius: 100%;
+    margin-bottom: 5vh;
+}
+
+.abt-feature-card {
+    display: inline-block;
+    background-color: #E6DEDD;
+    width: 275px;
+    height: auto;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+
+    /* margin-left: 7vw; */
+    /* margin-bottom: 10vh; */
+
+
+
+}
+
+.abt-feature-card img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.abt-feature-card h2 {
+
+    padding: 10%;
+    margin-bottom: 5vh;
+
+}
+
+.abt-feature-card p {
+
+    padding: 10%;
+}
+
+
+
+.wavy-divider {
+    position: relative;
+    background-color: blue;
+}
+
+.wavy-divider path {
+    fill: #F89D13;
+}
+
+.wavy-divider svg {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.abt-feature-desc {
+    background-color: #F89D13;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 0;
+}
+
+
+
+
+/*************************** Projects ****************************/
+.projects {
+    text-align: center;
+
+}
+
+
+.projects h1 {
+    margin: 10vh;
+}
+
+
+@media all and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-list {
+        list-style-type: none;
+
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+
+    }
+
+    .nav-list .list-item {
+        display: block;
+
+
+
+
+    }
+
+    .menu-toggler {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 30px;
+    }
+
+    .primary-icon {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 12vw;
+    }
+
+    .active {
+        display: block;
+    }
+}
